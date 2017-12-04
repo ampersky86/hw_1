@@ -23,7 +23,6 @@
     for (var a = 1; a <= n; a++) {
  	  cell[a]=document.createElement('div');
  	  cell[a].onclick=function () {
- 	  	var oldCell=document.getElementsByClassName('player');
         var newCell=this;
  	  	oldCell[0].classList.remove('player');
  	  	newCell.classList.add('player');
@@ -36,6 +35,7 @@
  	  matrix.appendChild(cell[a]);
    }
 
+    var oldCell=document.getElementsByClassName('player');
     cells=document.getElementsByClassName('cell');
 
     var btnUp=document.getElementById('up');
