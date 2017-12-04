@@ -1,0 +1,20 @@
+#matrix{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+
+
+
+.cell{
+	background-color: grey;
+	width: 39px;
+	height: 39px;
+	border-right: 1px solid black;	
+	border-bottom: 1px solid black;
+	float: left;
+}
+
+.player{
+	background-color: red;
+}
